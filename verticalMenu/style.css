@@ -1,0 +1,43 @@
+html,
+
+body {
+margin: 0;
+padding: 0;
+}
+
+body {
+width: 280px;
+min-height: 280px;
+padding: 10px;
+font-family: "Arial", sans-serif;
+font-size: 14px;
+line-height: 1.4;
+background: #ecf0f1;
+}
+
+.main-menu {
+
+width: 150px;
+list-style: none;
+padding: 0;
+margin-top: 14px;
+
+}
+
+.main-menu a {
+border-bottom: 2px solid #2c3e50;
+display: block;
+color: #ffffff;
+width: 170px;
+background: #2980b9;
+text-decoration: none;
+padding: 10px 15px;
+}
+
+.main-menu a:hover {
+background: #2ecc71;
+}
+.main-menu .active a {
+background: #1abc9c;
+border-bottom: 2px solid #2ecc71;
+}
